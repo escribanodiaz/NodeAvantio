@@ -66,7 +66,7 @@ function updateProduct(req, res) {
     }
     req.status(200).send({
       msg: `Producto modificado correctamente`
-    }, productUpdate);
+    }, productUpdate)
   });
 }
 
